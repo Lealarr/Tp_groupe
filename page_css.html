@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="Logo.png" alt="Logo de l'ADRAR Pôle Numérique" />
+      <nav>
+        <ul>
+          <li><a href="accueil.html">Accueil</a></li>
+          <li><a href="page_html.html">HTML</a></li>
+          <li><a href="css.html">CSS</a></li>
+          <li><a href="javaScipt.html">JavaScript</a></li>
+          <li><a href="api.html">API</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>CSS (Cascading Style Sheets)</h1>
+
+      <article id="text1">
+        <div class="img1">
+          <img src="cssimg.jpg" height="375" alt="Trois points définissant le html" />
+        </div>
+
+        <div class="text1">
+          <h2>Qu’est-ce que le CSS ?</h2>
+          <p>
+            Les feuilles de styles (en anglais "Cascading Style Sheets", abrégé CSS) sont un langage qui permet de gérer la présentation d'une page Web. Le langage CSS est une recommandation du World Wide Web Consortium (W3C), au même titre que HTML ou XML.
+            Les styles permettent de définir des règles appliquées à un ou plusieurs documents HTML. Ces règles portent sur le positionnement des éléments, l'alignement, les polices de caractères, les couleurs, les marges et espacements, les bordures, les images de fond, etc.
+            Le but de CSS est séparer la structure d'un document HTML et sa présentation. 
+            <br>
+            <br>
+            En effet, avec HTML, on peut définir à la fois la structure (le contenu et la hiérarchie entre les différentes parties d'un document) et la présentation. Mais cela pose quelques problèmes. Avec le couple HTML/CSS, on peut créer des pages web où la structure du document se trouve dans le fichier HTML tandis que la présentation se situe dans un fichier CSS.
+            <br>
+            <br>
+            Avec CSS on peut par exemple définir un ensemble de règles stylistiques communes à toutes les pages d'un site internet. Cela facilite ainsi la modification de la présentation d'un site entier. CSS permet aussi de définir des règles différentes pour chaque support d'affichage (une navigateur classique, une télévision, un support mobile, un lecteur braille...).
+            Voici un exemple de règle CSS :
+            <code>&lt;p{font-color: red; font-size: 12pt}&gt;</code>
+            <br>          
+            Explications : cette règle définit la couleur et la taille du texte pour les éléments <p> (paragraphes) d'un document HTML. Ainsi, tous les paragraphes auront une police de couleur rouge et une taille de 12 points.
+          </p>
+          
+        </div>
+      </article>
+
+      <article>
+        <div class="text2">
+          <h2>À quoi sert le CSS ?</h2>
+          <p>
+            Le CSS permet donc de définir l'esthétique d'un site web. Sans CSS, une page web ne serait qu'une succession d'éléments noirs sur fond blanc les uns à la suite des autres. C'est avec du code CSS que l'on définit par exemple :
+            <ul>
+                <li> la police d'un texte et son aspect (couleur, taille, etc.);</li>
+                <li>les marges et le rembourrage (padding) entourant un élément;</li>
+                <li>l'apparence d'un menu;</li>
+                <li>la création d'éléments géométriques;</li>
+                <li>la mise en place de grilles d'images;</li>
+                <li>l'ajout de bordure;</li>
+                <li>l'application de différents effets ou animations simples;</li>
+                <li>le changement de présentation d'un site selon l'appareil utilisé par l'utilisateur (téléphone portable, ordinateur, tablette);</li>
+                <li>la manière dont on navigue dans un site internet.</li>     
+            </ul>
+          </p>
+        </div>
+
+        <div class="img2">
+          <img
+            class="img2"
+            src="csssert.jpg"
+            alt="a quoi sert le css" 
+          />
+        </div>
+      </article>
+
+      <article>
+        <div class="img3">
+          <img src="why.jpg"  alt="pourquoi utiliser le css" />
+        </div>
+
+        <div class="text3">
+          <h2>Pourquoi utiliser le CSS ?</h2>
+            <p>Utiliser CSS pour gagner du temps Le webdesigner peut utiliser CSS pour appliquer des règles de mise en forme à plusieurs documents ou éléments simultanément. Exemple : le webdesigner veut colorer en vert les titres de second niveau ; au lieu de renseigner la couleur pour chaque titre, il indique dans le CSS que les titres < h2 > doivent s'afficher en vert : une seule ligne de code suffit.
+            <br>
+            <br>
+            Appliquer les règles de mise en forme simultanément permet ainsi au webdesigner de gagner du temps au moment de rédiger le code. De même, il gagne du temps dans le cas où il y aurait un changement stylistique à apporter : la règle est modifiée à un endroit unique du code, et s'applique automatiquement à tous les éléments concernés.
+            <br>
+            <br>
+            Utiliser CSS pour améliorer la lisibilité du code
+            Le HTML et le XML servent à créer la structure d'une page web et s'adressent plus particulièrement aux développeurs back end. De son côté, le CSS donne un style visuel aux éléments. Il est plus efficace pour définir l'esthétique d'un site web et il est largement utilisé en développement front end. De fait, utiliser CSS permet de séparer concrètement les rôles, et de distinguer plus clairement le code structurant du code descriptif de présentation. La lisibilité globale du code est ainsi améliorée, et le risque d'erreur est réduit.
+            <br>
+            <br>
+            Utiliser CSS pour appliquer une mise en forme cohérente
+            Très concrètement, utiliser CSS sert en premier lieu à définir et appliquer une mise en forme. Le CSS en effet prend en charge toutes les règles de présentation des documents, et notamment :
+            <br>
+            <br>
+            La police de caractères et la couleur de texte.
+            Les marges, le rembourrage et les bordures, pour définir l'espace entre les différents éléments d'une page, ou pour encadrer du texte ou des images.
+            La disposition des éléments, pour ajouter une image en arrière-plan d'une page par exemple.
+            L'alignement des éléments, pour centrer une image ou justifier un texte à droite, par exemple.
+            L'apparence des titres et sous-titres, pour transformer les titres de niveau supérieur en éléments de liste grâce à la propriété CSS display, par exemple.
+            La création d'éléments géométriques.
+            L'apparence des menus de navigation.
+            Avec CSS, le webdesigner définit une mise en forme esthétique et conforme à la charte graphique, et l'applique de manière cohérente sur l'ensemble des pages du site web.
+            Ces fichiers sont également appelés documents HTML, et ils sont les éléments constitutifs de votre site web. Chaque page comporte divers éléments on-page et off-page qui ont tous leur place dans les documents HTML. Il s’agit notamment d’éléments backend comme les balises méta, les balises de titre et les balises alt, mais aussi d’éléments physiques comme les vidéos, les images, les blocs de texte et d’autres éléments destinés à l’utilisateur.
+          </p>
+
+
+        </div>
+      </article>
+
+      <article>
+        <div class="text4">
+          <h2>Comment importer un fichier CSS dans une page HTML ?</h2>
+          <p>
+            À l'intérieur d'un site web, de très nombreux styles apparaissent. Plus le site est grand, plus les styles se multiplient. Ils peuvent contenir des centaines, voire des milliers de lignes de code. La création d'un fichier dédié au style et écrit en CSS est la pratique la plus courante. Voici comment importer un fichier CSS dans une page HTML à l'aide de la balise « link ».
+
+            La balise « link » pour le CSS présente au moins trois attributs :
+            <ul>
+                <li>« rel », qui définit le type de relations.</li>
+                <li>« type », qui identifie le format des données.</li>
+                <li>« herf », qui renvoie à la ressource liée.</li>
+                <li>« media », qui indique sur quel type de support de consultation exploiter le fichier.</li>
+                <li>Un quatrième attribut peut être intégré dans une balise « link » :</li>
+            </ul>
+            Bon à savoir : La balise « link » se place toujours avant la fin de la balise « head » dans le document HTML.</p> 
+        </div>
+        <div class="img4">
+          <img
+            class="img4"
+            src="link.png"
+            alt="comment lier le css" 
+          />
+        </div>
+      </article>
+<aside id="table-of-contents">
+  <h2>Table des matières</h2>
+  <ul>
+    <li><a href="#section1">Qu’est-ce que le CSS ?</a></li>
+    <li><a href="#section2">À quoi sert le CSS ?</a></li>
+    <li><a href="#section3">Pourquoi utiliser le CSS ?</a></li>
+    <li><a href="#section3">Comment importer un fichier CSS?</a></li>
+
+  </ul>
+</aside>
+    </main>
+    <footer>
+        <div class="footer">
+          <div>
+            <h2>Où nous trouver ?</h2>
+            <p>11 Avenue de l'Europe,</p>
+            <p>31520 Ramonville Saint-Agne</p>
+            <p>Métro RAMONVILLE Ligne B</p>
+            <p>05 34 31 38 10</p>
+          </div>
+          <div><h2>Mention Légales</h2></div>
+          <div>
+            <h2>Suivez nous sur les réseaux !</h2>
+            <a href="https://www.linkedin.com/school/adrarnumerique/"
+              ><img src="linkedin.png" height="50" width="50" alt="logo linkedin"
+            /></a>
+          </div>
+        </div>
+  
+        <p class="copy">Copyright ©2023 ADRAR Pôle Numérique</p>
+      </footer>
+  </body>
+</html>
