@@ -122,16 +122,16 @@ code {
 
 #table-of-contents {
   position: absolute;
-  left: 0;
-  top: 350px;
-  width: 300px;
+  left: 4;
+  top: 250px;
+  width: 310px;
   list-style: none;
   justify-content: space-evenly;
   background-color: #f5f5f5;
   padding: 10px;
-  border-right: 1px solid #ccc;
-  height: calc(100% - 100px);
-  overflow-y: auto;
+  border-right: 1px solid gray;
+  height: calc(100% / 4);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.402);
 }
 
 #table-of-contents ul {
