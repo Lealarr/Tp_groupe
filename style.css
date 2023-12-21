@@ -148,3 +148,23 @@ header {
   justify-content: space-between;
   font-weight: bold;
 }
+
+footer {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+footer h2:first-child {
+  grid-template-columns: 1;
+  grid-row: 1;
+}
+footer h2:nth-child(2) {
+  grid-template-columns: 1;
+  grid-row: 1;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
