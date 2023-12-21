@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styleléa.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
 
@@ -14,16 +14,17 @@
         <ul>
           <li><a href="accueil.html">Accueil</a></li>
           <li><a href="page_html.html">HTML</a></li>
-          <li><a href="css.html">CSS</a></li>
-          <li><a href="javascript.html">JavaScript</a></li>
+          <li><a href="page_css.html">CSS</a></li>
+          <li><a href="javaScipt.html">JavaScript</a></li>
           <li><a href="api.html">API</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
+    <h1>Contact</h1>
     <form>
       <fieldset>
-        <legend>Vous préfèrez:</legend>
+        <h4>Vous préfèrez:</h4>
         <div>
           <label for="html">Le HTML<input type="checkbox" checked /></label>
         </div>
@@ -39,7 +40,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>Info personnelles:</legend>
+        <h4>Info personnelles:</h4>
         <div>
           <label for="name"
             >Prénom:
@@ -49,6 +50,7 @@
               minlength="2"
               placeholder="Ex: Jacques"
           /></label>
+          <span class="asterisk_required_field"></span>
         </div>
         <div>
           <label for="name"
@@ -59,12 +61,14 @@
               minlength="2"
               placeholder="Ex: Dubois"
           /></label>
+          <span class="asterisk_required_field"></span>
         </div>
         <div>
           <label class="required" for="mail" name="mail" id="e-mail"
             >E-mail:
-          </label>
+            </label>
           <input type="mail" name="mail" placeholder="Ex: monMail@FAI.com" />
+          <span class="asterisk_required_field"></span>
         </div>
         <div>
           <label for="name"
@@ -73,21 +77,19 @@
           /></label>
         </div>
         <div>
-          <label for="age"> Age: </label>
-          <input type="number" placeholder="Ex: 15" min="10" max="60" />
-        </div>
-        <div>
           <label for="textarea">
-            Laissez un commentaire: <br />
+            Laissez un commentaire: <span class="asterisk_required_field"></span><br />
             <textarea name="commentaire" cols="70" rows="10">
 J'adore ce que vous faites !
             </textarea>
           </label>
         </div>
         <div>
+          
           <label for="date"
             >Date de mon commentaire <input type="date"
           /></label>
+          <span class="asterisk_required_field"></span>
         </div>
         <div>
           <label for="photo"
@@ -98,7 +100,7 @@ J'adore ce que vous faites !
       </fieldset>
 
       <fieldset>
-        <legend>Fin du formulaire</legend>
+        <h4>Fin du formulaire</h4>
         <div>
           <label for="option">Vous en avez appris plus ?</label>
           <select name="option" id="option">
@@ -117,17 +119,23 @@ J'adore ce que vous faites !
       </fieldset>
     </form>
     <footer>
-      <h2>Ou nous trouver ?</h2>
-      <p>
-        11 Avenue de l'Europe, 31520 Ramonville Saint-AgneMétro RAMONVILLE Ligne
-        B
-      </p>
-      <p>05 34 31 38 10</p>
-      <h2>Mention Légales</h2>
-      <h2>Suivez nous sur les réseaux !</h2>
-      <a href="https://www.linkedin.com/school/adrarnumerique/"
-        ><img src="linkedin.png" height="50" width="50" alt="logo linkedin"
-      /></a>
+      <div class="footer">
+        <div>
+          <h2>Où nous trouver ?</h2>
+          <p>11 Avenue de l'Europe,</p>
+          <p>31520 Ramonville Saint-Agne</p>
+          <p>Métro RAMONVILLE Ligne B</p>
+          <p>05 34 31 38 10</p>
+        </div>
+        <div><h2>Mention Légales</h2></div>
+        <div>
+          <h2>Suivez nous sur les réseaux !</h2>
+          <a href="https://www.linkedin.com/school/adrarnumerique/"
+            ><img src="linkedin.png" height="50" width="50" alt="logo linkedin"
+          /></a>
+        </div>
+      </div>
+
       <p class="copy">Copyright ©2023 ADRAR Pôle Numérique</p>
     </footer>
   </body>
